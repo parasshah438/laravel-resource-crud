@@ -15,7 +15,7 @@ class StudentRequest extends FormRequest
     public function rules()
     {   
 
-        if(request()->isMethod('post'))
+        if(request()->isMethod('POST'))
         {
             return [
                 'name' => 'required',
